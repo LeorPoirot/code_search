@@ -1,0 +1,43 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group 'repo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.github.javaparser:javaparser-core:3.2.1'
+    implementation 'com.alibaba:fastjson:1.2.35'
+}
+
+mainClassName = 'Main'
+
+jar{
+    String someString = ''
+    configurations.runtime.each{
+        someString = someString + "lib/" + it.name
+        print("********* " + it.name)
+    }
+    manifest{
+        attributes 'Main-Class': 'Main'
+        attributes 'Class-Path': someString
+    }
+}
+
+task clearPj(type:Delete){
+    delete 'build', 'target'
+}
+task copyJar(type:Copy){
+    from configurations.runtime
+    into ('build/libs/lib')
+    print("********* copyJar")
+}
+task release(type: Copy, dependsOn: [build,copyJar]){
+    print("********* release")
+}

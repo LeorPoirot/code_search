@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e3f994f-3919-48dd-bde8-6653dd3084e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="janalyzer" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="janalyzer" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aWPqR9PUf04DWKavhUyO9RNQsj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568016880553" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\bitbucket\code\janalyzer\src\main\java" />
+      <recent name="E:\bitbucket\code\janalyzer\src\main\java\project" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bitbucket\code\janalyzer\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JZipFolder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.JZipFolder" />
+      <module name="repo.janalyzer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JZipFolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.project.JZipFolder" />
+      <module name="repo.janalyzer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="janalyzer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="janalyzer.main" />
+      <option name="VM_PARAMETERS" value="-Xss2m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="repo.janalyzer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Main" />
+      <module name="repo.janalyzer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zip.ZipFileReader" />
+      <module name="repo.janalyzer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JZipFolder" />
+      <item itemvalue="Application.JZipFolder (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ZipFileReader" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JZipFolder (1)" />
+        <item itemvalue="Application.JZipFolder" />
+        <item itemvalue="Application.ZipFileReader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e3f994f-3919-48dd-bde8-6653dd3084e4" name="Default Changelist" comment="" />
+      <created>1551161112625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551161112625</updated>
+      <workItem from="1586848573057" duration="453000" />
+      <workItem from="1586849040732" duration="11413000" />
+      <workItem from="1586939508856" duration="8275000" />
+      <workItem from="1586959578834" duration="8985000" />
+      <workItem from="1587046190513" duration="17000" />
+      <workItem from="1587227604347" duration="1599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="111" key="#Main" timestamp="1586938269830">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="111" key="#Main/0.0.1440.900@0.0.1440.900" timestamp="1586938269830" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587227678048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587227678048" />
+    <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586967864413">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1586967864413" />
+    <state x="533" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1586962657204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586962657204" />
+    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1587229033651">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="442" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1587229033651" />
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1587229222907">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587229222907" />
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587044441997" />
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586942186868" />
+    <state width="1398" height="273" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586957284253" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1587229222903">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587229222903" />
+    <state width="1398" height="157" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1587044441996" />
+    <state width="1398" height="299" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1586942186864" />
+    <state width="1398" height="273" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586957284251" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1587229222901">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587229222901" />
+    <state width="1398" height="157" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1587044441995" />
+    <state width="1398" height="299" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1586942186863" />
+    <state width="1398" height="273" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586957284250" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1587229222903">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587229222903" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1587044441996" />
+    <state width="1398" height="299" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1586942186868" />
+    <state width="1398" height="273" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586957284252" />
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1587229222909">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587229222909" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587044441989" />
+    <state width="1398" height="299" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586942186871" />
+    <state width="1398" height="273" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586957284525" />
+    <state width="1398" height="263" key="GridCell.Tab.1.center" timestamp="1587229222908">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587229222908" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1587044441988" />
+    <state width="1398" height="299" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1586942186870" />
+    <state width="1398" height="273" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1586957284510" />
+    <state width="1398" height="263" key="GridCell.Tab.1.left" timestamp="1587229222908">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587229222908" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1587044441988" />
+    <state width="1398" height="299" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1586942186869" />
+    <state width="1398" height="273" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1586957284508" />
+    <state width="1398" height="263" key="GridCell.Tab.1.right" timestamp="1587229222909">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587229222909" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1587044441989" />
+    <state width="1398" height="299" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1586942186870" />
+    <state width="1398" height="273" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1586957284518" />
+    <state x="221" y="48" key="SettingsEditor" timestamp="1586955087087">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="48" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586955087087" />
+    <state x="221" y="67" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1586849768640" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1587228631411">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1587228631411" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.23.1440.829@0.23.1440.829" timestamp="1586959820730" />
+    <state x="374" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1587227604896">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="262" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587227604896" />
+    <state x="374" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586848995323" />
+    <state x="374" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1586849360250" />
+    <state x="267" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586942272210">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="267" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1586942272210" />
+    <state x="385" y="194" key="run.anything.popup" timestamp="1586849593906">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="385" y="194" key="run.anything.popup/0.23.1440.827@0.23.1440.827" timestamp="1586849593906" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/project/JProject.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/project/JZipProject.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ast/util/ASTUtil.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|repo.janalyzer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
