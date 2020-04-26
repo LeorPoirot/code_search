@@ -1,0 +1,175 @@
+set working directory
+#################
+query:['set', 'work', 'directori']
+#################
+
+#1 sim: 0.04360148683190346
+---
+HMMPOSTagger.translate
+---
+private static int[][] translate(Map<String, Integer> symbol, Map<String, Integer> suffix, String[] o) {
+        int[][] seq = new int[o.length][2];
+        
+        for (int i = 0; i < o.length; i++) {
+            Integer index = symbol.get(o[i]);
+            if (index != null) {
+                seq[i][0] = index;
+            } else {
+                seq[i][0] = 0;
+            }
+            
+            index = null;
+            if (o[i].length() > 2) {
+                index = suffix.get(o[i].substring(o[i].length() - 2));
+            }            
+            if (index != null) {
+                seq[i][1] = index;
+            } else {
+                seq[i][1] = -1;
+            }
+        }
+
+        return seq;
+    }
+
+#2 sim: 0.03202051669359207
+---
+TemplateFactory.getTemplateInfo
+---
+public TemplateInfo getTemplateInfo(String templateId, Integer templateVersion) throws TemplateException {
+        if (templateSet.containsTemplateId(templateId)) {
+            TemplateVersions versionMap = templateSet.getTemplateVersions(templateId);
+            if (versionMap.containsVersion(templateVersion))
+                return versionMap.getTemplate(templateVersion);
+            throw new TemplateException("No template found with VERSION : " + templateVersion + " and ID: " + templateId);
+        }
+        throw new TemplateException("No template found with ID : " + templateId);
+    }
+
+#3 sim: 0.03407076746225357
+---
+DefaultApplicationContext.startEnvironment
+---
+protected void startEnvironment() {
+        Environment defaultEnvironment = getEnvironment();
+        defaultEnvironment.start();
+        registerSingleton(Environment.class, defaultEnvironment);
+        registerSingleton(new AnnotationProcessorListener());
+    }
+
+#4 sim: 0.050596948713064194
+---
+ExecuteAsUser.execute
+---
+public int execute(final String user, final List<String> command) throws IOException {
+    log.info("Command: " + command);
+    final Process process = new ProcessBuilder()
+        .command(constructExecuteAsCommand(user, command))
+        .inheritIO()
+        .start();
+
+    int exitCode;
+    try {
+      exitCode = process.waitFor();
+    } catch (final InterruptedException e) {
+      log.error(e.getMessage(), e);
+      exitCode = 1;
+    }
+    return exitCode;
+  }
+
+#5 sim: 0.04355333372950554
+---
+SQLRewriteEngine.rewrite
+---
+public SQLBuilder rewrite(final boolean isSingleRouting) {
+        SQLBuilder result = new SQLBuilder(parameters);
+        if (sqlTokens.isEmpty()) {
+            return appendOriginalLiterals(result);
+        }
+        appendInitialLiterals(!isSingleRouting, result);
+        appendTokensAndPlaceholders(!isSingleRouting, result);
+        reviseParameters();
+        return result;
+    }
+
+#6 sim: 0.04076550900936127
+---
+Context.wrap
+---
+public <C> Callable<C> wrap(final Callable<C> c) {
+    return new Callable<C>() {
+      @Override
+      public C call() throws Exception {
+        Context previous = attach();
+        try {
+          return c.call();
+        } finally {
+          detach(previous);
+        }
+      }
+    };
+  }
+
+#7 sim: 0.044698525220155716
+---
+IndentPrinter.printIndent
+---
+public void printIndent() {
+        for (int i = 0; i < indentLevel; i++) {
+            try {
+                out.write(indent);
+            } catch(IOException ioe) {
+                throw new GroovyRuntimeException(ioe);
+            }
+        }
+    }
+
+#8 sim: 0.05459126830101013
+---
+ClassUtil.getSuperclasses
+---
+public static Class[] getSuperclasses(final Class type) {
+		int i = 0;
+		for (Class x = type.getSuperclass(); x != null; x = x.getSuperclass()) {
+			i++;
+		}
+		Class[] result = new Class[i];
+		i = 0;
+		for (Class x = type.getSuperclass(); x != null; x = x.getSuperclass()) {
+			result[i] = x;
+			i++;
+		}
+		return result;
+	}
+
+#9 sim: 0.04103325307369232
+---
+HttpSessionsSite.isSessionNameUnique
+---
+private boolean isSessionNameUnique(final String name) {
+		synchronized (this.sessions) {
+			for (HttpSession session : sessions) {
+				if (name.equals(session.getName())) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+#10 sim: 0.04857722297310829
+---
+GloVe.pretrain
+---
+@Override
+    public void pretrain(@NonNull SequenceIterator<T> iterator) {
+        // CoOccurence table should be built here
+        coOccurrences = new AbstractCoOccurrences.Builder<T>()
+                        // TODO: symmetric should be handled via VectorsConfiguration
+                        .symmetric(this.symmetric).windowSize(configuration.getWindow()).iterate(iterator)
+                        .workers(workers).vocabCache(vocabCache).maxMemory(maxmemory).build();
+
+        coOccurrences.fit();
+    }
+
