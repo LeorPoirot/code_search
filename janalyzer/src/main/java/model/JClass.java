@@ -48,7 +48,8 @@ public class JClass {
         try {
             cu = JavaParser.parse(code);
             // class name
-            String[] names = fullName.split("/");
+            // String[] names = fullName.split("/");
+            String[] names = fullName.split("\\\\");
             String name = names[names.length - 1];
             className = name.substring(0, name.length() - 5);
 
@@ -141,8 +142,8 @@ public class JClass {
                     jOutput.cSrc++;
                     jOutput.write(jOutput.getFileSourceCode(), jm.getCode(), jOutput.cSrc);
 
-                    jOutput.cHash++;
-                    jOutput.write(jOutput.getFileHash(), jm.getHash()+"", jOutput.cHash);
+//                    jOutput.cHash++;
+//                    jOutput.write(jOutput.getFileHash(), jm.getHash()+"", jOutput.cHash);
 
                     String ast = ASTUtil.getTreeInJsonObject(jm.getBs());
                     jOutput.cAst++;

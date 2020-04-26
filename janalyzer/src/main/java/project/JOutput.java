@@ -10,6 +10,7 @@ import java.util.List;
 
 
 public class JOutput {
+    private File repo_file;
     // description
     private File fileComment;
     private File fileJavadoc;
@@ -67,18 +68,21 @@ public class JOutput {
         this.projectName = projectName;
         // String i = projectName.substring(0, projectName.length() - 4);
         String i = projectName;
-        fileComment = new File(path + "file_" + i + "_Comment.csv");
-        fileJavadoc = new File(path + "file_" + i + "_Javadoc.csv");
-        fileSourceCode = new File(path + "file_" + i + "_SourceCode.csv");
-        fileSource = new File(path + "file_" + i + "_Source.csv");
-        fileParsedCode = new File(path + "file_" + i + "_ParsedCode.csv");
-        fileMethod = new File(path + "file_" + i + "_Method.csv");
-        fileParameter = new File(path + "file_" + i + "_Parameter.csv");
-        fileReturn = new File(path + "file_" + i + "_Return.csv");
-        fileModifiers = new File(path + "file_" + i + "_Modifiers.csv");
-        fileAst = new File(path + "file_" + i + "_Ast.csv");
-        fileHash = new File(path + "file_" + i + "_Hash.csv");
-
+        repo_file = new File(path + this.projectName);
+        fileComment = new File(path + this.projectName + "/file_" + i + "_Comment.csv");
+        fileJavadoc = new File(path + this.projectName + "/file_" + i + "_Javadoc.csv");
+        fileSourceCode = new File(path + this.projectName + "/file_" + i + "_SourceCode.csv");
+        fileSource = new File(path + this.projectName + "/file_" + i + "_Source.csv");
+        fileParsedCode = new File(path + this.projectName + "/file_" + i + "_ParsedCode.csv");
+        fileMethod = new File(path + this.projectName + "/file_" + i + "_Method.csv");
+        fileParameter = new File(path + this.projectName + "/file_" + i + "_Parameter.csv");
+        fileReturn = new File(path + this.projectName + "/file_" + i + "_Return.csv");
+        fileModifiers = new File(path + this.projectName + "/file_" + i + "_Modifiers.csv");
+        fileAst = new File(path + this.projectName + "/file_" + i + "_Ast.csv");
+        //fileHash = new File(path + this.projectName + "\\file_" + i + "_Hash.csv");
+        if (!repo_file.exists()){
+            repo_file.mkdir();
+        }
         clear();
         build();
     }
@@ -112,9 +116,9 @@ public class JOutput {
             if (fileModifiers.exists()) {
                fileModifiers.delete();
             }
-            if (fileHash.exists()){
-                fileHash.delete();
-            }
+//            if (fileHash.exists()){
+//                fileHash.delete();
+//            }
             if (fileAst.exists()){
                 fileAst.delete();
             }
@@ -135,7 +139,7 @@ public class JOutput {
             fileModifiers.createNewFile();
             fileReturn.createNewFile();
             fileAst.createNewFile();
-            fileHash.createNewFile();
+            //fileHash.createNewFile();
         } catch (Exception e) {
             System.out.println(e.toString());
         }

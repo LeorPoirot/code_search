@@ -36,7 +36,7 @@ public class JMethod {
 
     public JMethod(MethodDeclaration md, JClass jClass) {
         code = md.toString();
-        hash = toHash(code);
+        //hash = toHash(code);
         comments = md.getAllContainedComments().toString();
         if (md.getJavadocComment().isPresent()) {
             javadocs = md.getJavadocComment().get().toString();
@@ -67,7 +67,7 @@ public class JMethod {
 
     public JMethod(ConstructorDeclaration md, JClass jClass) {
         code = md.toString();
-        hash = toHash(code);
+        //hash = toHash(code);
         isConstructor = true;
         type = "void";
         comments = md.getAllContainedComments().toString();
